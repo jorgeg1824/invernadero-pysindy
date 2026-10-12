@@ -1,0 +1,102 @@
+{
+  "estrategia": "C_barrido_threshold",
+  "parametros": {
+    "thresholds": [
+      1e-05,
+      3e-05,
+      0.0001,
+      0.0003,
+      0.001,
+      0.003,
+      0.01
+    ],
+    "criterio": "menor RMSE de simulación",
+    "threshold_elegido": 0.01,
+    "identificacion": {
+      "threshold": 0.01,
+      "alpha": 0.001,
+      "derivada": "savgol+gradiente (tiempo real)",
+      "ventana_savgol": 21,
+      "polyorder": 2,
+      "unidad_tiempo": "s",
+      "unidad_efectiva": "s"
+    }
+  },
+  "coef": {
+    "a0": 0.03485990549545982,
+    "aT": -0.0007635394556372052,
+    "aL": 0.0,
+    "aH": -0.0002349260558983856
+  },
+  "unidad_tiempo": "s",
+  "terminos_activos": [
+    "T",
+    "H"
+  ],
+  "ecuacion": "dT/dt = 0.034859905 + (-0.00076353946)·T + (0)·L + (-0.00023492606)·H     [°C/s]",
+  "datos_identificacion": {
+    "conjunto": "entrenamiento",
+    "inicio": "2026-06-15T15:36:17+00:00",
+    "fin": "2026-06-20T15:32:41+00:00",
+    "dias": 4.9975,
+    "muestras": 1494
+  },
+  "datos_seleccion": {
+    "conjunto": "validacion (la misma que se reporta)",
+    "inicio": "2026-06-20T15:37:40+00:00",
+    "fin": "2026-06-25T22:03:00+00:00",
+    "dias": 5.267592592592592,
+    "muestras": 1533
+  },
+  "barrido": [
+    {
+      "threshold": 1e-05,
+      "RMSE": 2.8203923008192313,
+      "MAE": 2.051287353020219,
+      "R2": 0.9136654562824643,
+      "terminos": 4
+    },
+    {
+      "threshold": 3e-05,
+      "RMSE": 2.8203923008192313,
+      "MAE": 2.051287353020219,
+      "R2": 0.9136654562824643,
+      "terminos": 4
+    },
+    {
+      "threshold": 0.0001,
+      "RMSE": 2.8203923008192313,
+      "MAE": 2.051287353020219,
+      "R2": 0.9136654562824643,
+      "terminos": 4
+    },
+    {
+      "threshold": 0.0003,
+      "RMSE": 2.8203923008192313,
+      "MAE": 2.051287353020219,
+      "R2": 0.9136654562824643,
+      "terminos": 4
+    },
+    {
+      "threshold": 0.001,
+      "RMSE": 2.8465286315487086,
+      "MAE": 2.063204602810866,
+      "R2": 0.9120579327937816,
+      "terminos": 3
+    },
+    {
+      "threshold": 0.003,
+      "RMSE": 2.8465286315487086,
+      "MAE": 2.063204602810866,
+      "R2": 0.9120579327937816,
+      "terminos": 3
+    },
+    {
+      "threshold": 0.01,
+      "RMSE": 2.6448350544448704,
+      "MAE": 2.0111736450995417,
+      "R2": 0.9240788562839451,
+      "terminos": 2
+    }
+  ]
+}

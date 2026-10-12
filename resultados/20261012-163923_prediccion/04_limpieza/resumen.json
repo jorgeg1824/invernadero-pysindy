@@ -1,0 +1,11 @@
+{
+  "mediciones_originales": 29579,
+  "mediciones_dentro_de_tramos": 29579,
+  "mediciones_fuera_de_tramos (descartadas)": 0,
+  "puntos_malla": 29256,
+  "puntos_interpolados_entre_mediciones_vecinas": 29200,
+  "puntos_rellenados_en_huecos": 56,
+  "paso_min": 5.0,
+  "huecos": 4,
+  "tramos": 5
+}

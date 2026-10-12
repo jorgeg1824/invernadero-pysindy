@@ -1,0 +1,9 @@
+Preparación del modelo
+======================
+
+A y B se identifican con todo el entrenamiento. C ajusta con el entrenamiento sin su parte final y elige el threshold con esa parte final (selección).
+
+     conjunto                    inicio                       fin      dias  muestras
+entrenamiento 2026-08-18 13:05:00+00:00 2026-09-08 15:25:00+00:00 21.097222      6077
+    seleccion 2026-09-04 10:10:00+00:00 2026-09-08 15:25:00+00:00  4.218750      1216
+   validacion 2026-09-08 15:30:00+00:00 2026-09-28 15:25:00+00:00 19.996528      5760

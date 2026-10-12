@@ -1,0 +1,17 @@
+16:39:24 [etapa 1] Leído /home/claude/invernadero-pysindy/datos_ejemplo/Aeronic_export_29_09_2026.csv: 147927 filas, columnas ['device_name', 'metric_name', 'datetime_utc', 'number_value']
+16:39:24 [etapa 1] Datos originales
+16:39:25 [etapa 2] Todas las fechas terminan en 'Z': están explícitamente en UTC.
+16:39:25 [etapa 2] Filas del CSV -> filas con fecha y valor válidos: 147927 -> 147927 registros (+0)
+16:39:25 [etapa 2] Serie Temperatura: 29585 muestras
+16:39:25 [etapa 2] Serie Luminosidad: 29586 muestras
+16:39:25 [etapa 2] Serie Humedad: 29585 muestras
+16:39:25 [etapa 2] Transformación
+16:39:26 [etapa 3] Muestras de T -> filas alineadas: 29585 -> 29579 registros (-6)
+16:39:26 [etapa 3] Alineación
+16:39:27 [etapa 4] Mediciones alineadas -> puntos de malla de 5 min: 29579 -> 29256 registros (-323)
+16:39:27 [etapa 4] Puntos rellenados en huecos: 56; mediciones fuera de tramos: 0
+16:39:27 [etapa 4] Limpieza y relleno de huecos
+16:39:28 [etapa 5] Selección del tramo
+16:39:32 [etapa 6] Preparación del modelo
+16:39:32 [etapa 7] Identificación
+16:39:33 [etapa 8] Simulación y evaluación

@@ -1,0 +1,16 @@
+{
+  "dt_por_variable_s": {
+    "Temperatura": 300.0,
+    "Luminosidad": 300.0,
+    "Humedad": 300.0
+  },
+  "dt_referencia_s": 300.0,
+  "tolerancia_s": 600.0,
+  "filas_temperatura": 29585,
+  "filas_alineadas": 29579,
+  "duplicados_eliminados": 6,
+  "sin_pareja_dentro_de_tolerancia": {
+    "Luminosidad": 0,
+    "Humedad": 0
+  }
+}

@@ -1,0 +1,9 @@
+Simulación y evaluación
+=======================
+
+COMPARACIÓN DE ESTRATEGIAS sobre la misma validación (2026-09-08 -> 2026-09-28)
+
+             estrategia  estable           terminos      RMSE       MAE         R2     identificado_con                         elegido_con
+  A_identificacion_base    False constante, T, L, H 2.402e+30 4.023e+29 -1.062e+59 entrenamiento (6077)                                   -
+B_ajuste_por_simulacion     True constante, T, L, H     1.365     1.049     0.9657 entrenamiento (6077)                                   -
+    C_barrido_threshold    False constante, T, L, H 1.475e+46 1.988e+45 -4.003e+90 entrenamiento (4861) seleccion (final del entrenamiento)

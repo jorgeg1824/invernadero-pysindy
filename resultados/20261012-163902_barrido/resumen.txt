@@ -1,0 +1,17 @@
+BARRIDO DE THRESHOLD (invernadero_profesor.py)
+
+Threshold elegido: 0.01
+dT/dt = 0.034859905 + (-0.00076353946)·T + (0)·L + (-0.00023492606)·H     [°C/s]
+τ = 21.8 min
+
+Validación: RMSE = 2.6448 °C   MAE = 2.0112 °C   R² = 0.9241  (threshold elegido con estos mismos datos)
+
+THRESHOLDS PROBADOS
+--------------------
+1e-05    RMSE=2.8204     R²=0.91367    términos=4
+3e-05    RMSE=2.8204     R²=0.91367    términos=4
+0.0001   RMSE=2.8204     R²=0.91367    términos=4
+0.0003   RMSE=2.8204     R²=0.91367    términos=4
+0.001    RMSE=2.8465     R²=0.91206    términos=3
+0.003    RMSE=2.8465     R²=0.91206    términos=3
+0.01     RMSE=2.6448     R²=0.92408    términos=2

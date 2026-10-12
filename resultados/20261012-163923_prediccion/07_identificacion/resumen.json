@@ -1,0 +1,64 @@
+{
+  "base": {
+    "coef_por_h": {
+      "a0": -8.792055146760978,
+      "aT": 0.14849671325842503,
+      "aL": 0.00017146382719458383,
+      "aH": 0.06723541876922594
+    },
+    "terminos": [
+      "constante",
+      "T",
+      "L",
+      "H"
+    ],
+    "estable": false,
+    "parametros": {
+      "threshold": 0.001,
+      "alpha": 0.001,
+      "derivada": "savgol deriv=1 (malla uniforme)",
+      "ventana_savgol": 21,
+      "polyorder": 2,
+      "paso_h": 0.08333333333333333
+    }
+  },
+  "final": {
+    "estrategia": "B_ajuste_por_simulacion",
+    "coef_por_h": {
+      "a0": 584.49187230807,
+      "aT": -17.994525475033758,
+      "aL": 0.01886589654418686,
+      "aH": -3.0267421377733617
+    },
+    "terminos": [
+      "constante",
+      "T",
+      "L",
+      "H"
+    ],
+    "parametros": {
+      "optimizador": "scipy.optimize.least_squares",
+      "objetivo": "error de simulación en el entrenamiento",
+      "restriccion": "aT = -exp(q) < 0",
+      "simulador": "lsim",
+      "parte_de": "A_identificacion_base",
+      "terminos_ajustados": [
+        "constante",
+        "T",
+        "L",
+        "H"
+      ]
+    },
+    "detalles": {
+      "q0": [
+        0.002164340895372057,
+        0.0,
+        0.07501384425340271,
+        0.22568340180990154
+      ],
+      "costo_final": 5614.790168514891,
+      "evaluaciones": 29,
+      "arranque_aT": "aT = -1 (PySINDy inestable)"
+    }
+  }
+}

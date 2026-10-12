@@ -1,0 +1,31 @@
+Datos originales
+================
+
+Archivo: /home/claude/invernadero-pysindy/datos_ejemplo/Aeronic_export_29_09_2026.csv
+Formato: largo (metric_name / number_value)
+Filas: 147927
+
+Tipos de columna:
+     columna    tipo  nulos                            ejemplo
+ device_name     str      0 Monitoreo de variables ambientales
+ metric_name     str      0                        Temperatura
+datetime_utc     str      0               2026-06-15T15:36:17Z
+number_value float64      0                               23.1
+
+Filas por métrica:
+  bomba: 29586
+  Luminosidad: 29586
+  Temperatura: 29585
+  Humedad: 29585
+  Suelo_pct: 29585
+
+Primeras filas:
+                          device_name  metric_name          datetime_utc  number_value
+0  Monitoreo de variables ambientales  Temperatura  2026-06-15T15:36:17Z         23.10
+1  Monitoreo de variables ambientales        bomba  2026-06-15T15:36:17Z          0.00
+2  Monitoreo de variables ambientales      Humedad  2026-06-15T15:36:17Z         65.84
+3  Monitoreo de variables ambientales  Luminosidad  2026-06-15T15:36:17Z       2269.17
+4  Monitoreo de variables ambientales    Suelo_pct  2026-06-15T15:36:17Z         75.00
+5  Monitoreo de variables ambientales    Suelo_pct  2026-06-15T15:41:16Z         56.00
+6  Monitoreo de variables ambientales        bomba  2026-06-15T15:41:16Z          0.00
+7  Monitoreo de variables ambientales      Humedad  2026-06-15T15:41:16Z         64.82

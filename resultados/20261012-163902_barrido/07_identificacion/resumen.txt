@@ -1,0 +1,27 @@
+Identificación
+==============
+
+Estrategia: C_barrido_threshold
+Parámetros: {'thresholds': [1e-05, 3e-05, 0.0001, 0.0003, 0.001, 0.003, 0.01], 'criterio': 'menor RMSE de simulación', 'threshold_elegido': 0.01, 'identificacion': {'threshold': 0.01, 'alpha': 0.001, 'derivada': 'savgol+gradiente (tiempo real)', 'ventana_savgol': 21, 'polyorder': 2, 'unidad_tiempo': 's', 'unidad_efectiva': 's'}}
+Identificado con: entrenamiento 2026-06-15 15:36 -> 2026-06-20 15:32 (1494 muestras)
+Elegido con: validacion (la misma que se reporta) 2026-06-20 15:37 -> 2026-06-25 22:03 (1533 muestras)
+Términos activos: T, H
+dT/dt = 0.034859905 + (-0.00076353946)·T + (0)·L + (-0.00023492606)·H     [°C/s]
+τ = 21.8 min
+
+Modelo PySINDy:
+(x0)' = -0.0007635·x0 -0.0008251·u1     [x0 = T, u0 = L, u1 = H normalizadas]
+(La constante física puede ser distinta de 0 aunque c0 = 0: aparece al
+ des-normalizar T, L y H, que tienen media distinta de 0.)
+
+THRESHOLDS PROBADOS
+--------------------
+1e-05    RMSE=2.8204     R²=0.91367    términos=4
+3e-05    RMSE=2.8204     R²=0.91367    términos=4
+0.0001   RMSE=2.8204     R²=0.91367    términos=4
+0.0003   RMSE=2.8204     R²=0.91367    términos=4
+0.001    RMSE=2.8465     R²=0.91206    términos=3
+0.003    RMSE=2.8465     R²=0.91206    términos=3
+0.01     RMSE=2.6448     R²=0.92408    términos=2
+
+AVISO: el threshold se eligió con la validación; sus métricas NO son una evaluación independiente.

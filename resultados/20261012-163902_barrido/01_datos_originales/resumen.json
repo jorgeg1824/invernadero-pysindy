@@ -1,0 +1,17 @@
+{
+  "filas": 147927,
+  "columnas": [
+    "device_name",
+    "metric_name",
+    "datetime_utc",
+    "number_value"
+  ],
+  "formato": "largo (metric_name / number_value)",
+  "metricas": {
+    "bomba": 29586,
+    "Luminosidad": 29586,
+    "Temperatura": 29585,
+    "Humedad": 29585,
+    "Suelo_pct": 29585
+  }
+}

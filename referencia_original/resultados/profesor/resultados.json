@@ -1,0 +1,120 @@
+{
+  "programa": "invernadero_profesor.py",
+  "como_se_ejecuto": "Interfaz: Abrir CSV -> Buscar mejor tramo -> Ejecutar PySINDy",
+  "configuracion": {
+    "dias_minimos_tramo": 6,
+    "dias_entrenamiento": 5,
+    "factor_corte_bloques": 4.0,
+    "ventana_savgol": 21,
+    "thresholds": [
+      1e-05,
+      3e-05,
+      0.0001,
+      0.0003,
+      0.001,
+      0.003,
+      0.01
+    ],
+    "alpha_stlsq": 0.001,
+    "integrador": "solve_ivp RK45",
+    "criterio_seleccion": "menor RMSE en validacion"
+  },
+  "registros": {
+    "filas_csv": 147927,
+    "muestras_por_variable": {
+      "Temperatura": 29585,
+      "Luminosidad": 29586,
+      "Humedad": 29585
+    },
+    "filas_alineadas": 29579,
+    "duplicados_eliminados": 6,
+    "bloques_validos": 5,
+    "muestras_tramo": 3027,
+    "muestras_tramo_limpio": 3027,
+    "muestras_train": 1494,
+    "muestras_validacion": 1533
+  },
+  "tramo": {
+    "inicio": "2026-06-15T15:36:17+00:00",
+    "fin": "2026-06-25T22:03:00+00:00",
+    "duracion_h": 246.4452777777778,
+    "excitacion": 620.6424413804075,
+    "score": 282.32025282290454,
+    "train_inicio": "2026-06-15T15:36:17+00:00",
+    "train_fin": "2026-06-20T15:32:41+00:00",
+    "val_inicio": "2026-06-20T15:37:40+00:00",
+    "val_fin": "2026-06-25T22:03:00+00:00"
+  },
+  "threshold_elegido": 1e-05,
+  "coeficientes_normalizados": {
+    "1": 0.11255158476743174,
+    "x0": -0.7775548613364913,
+    "u0": 0.022977349519185012,
+    "u1": -0.8224452517001964
+  },
+  "coeficientes_fisicos": {
+    "a0": 35.918598591866456,
+    "aT": -0.7775548613364913,
+    "aL": 5.1905571552457955e-05,
+    "aH": -0.23417620531400865
+  },
+  "ecuacion": "dT/dt = 35.918599 + (-0.77755486)·T + (5.1905572e-05)·L + (-0.23417621)·H",
+  "metricas_validacion": {
+    "RMSE": 2.820347455883158,
+    "MAE": 2.051577883081804,
+    "R2": 0.9136682017418903
+  },
+  "barrido_threshold": [
+    {
+      "threshold": 1e-05,
+      "RMSE": 2.820347455883158,
+      "MAE": 2.051577883081804,
+      "R2": 0.9136682017418903,
+      "terminos": 4
+    },
+    {
+      "threshold": 3e-05,
+      "RMSE": 2.820347455883158,
+      "MAE": 2.051577883081804,
+      "R2": 0.9136682017418903,
+      "terminos": 4
+    },
+    {
+      "threshold": 0.0001,
+      "RMSE": 2.820347455883158,
+      "MAE": 2.051577883081804,
+      "R2": 0.9136682017418903,
+      "terminos": 4
+    },
+    {
+      "threshold": 0.0003,
+      "RMSE": 2.820347455883158,
+      "MAE": 2.051577883081804,
+      "R2": 0.9136682017418903,
+      "terminos": 4
+    },
+    {
+      "threshold": 0.001,
+      "RMSE": 2.820347455883158,
+      "MAE": 2.051577883081804,
+      "R2": 0.9136682017418903,
+      "terminos": 4
+    },
+    {
+      "threshold": 0.003,
+      "RMSE": 2.820347455883158,
+      "MAE": 2.051577883081804,
+      "R2": 0.9136682017418903,
+      "terminos": 4
+    },
+    {
+      "threshold": 0.01,
+      "RMSE": 2.820347455883158,
+      "MAE": 2.051577883081804,
+      "R2": 0.9136682017418903,
+      "terminos": 4
+    }
+  ],
+  "errores_interfaz": [],
+  "duracion_s": 15.053730964660645
+}

@@ -1,0 +1,21 @@
+Limpieza y segmentación
+=======================
+
+Se corta un bloque cuando dt > 4 x dt mediano (0 days 00:20:00). No se interpola: los bloques conservan las muestras originales; se descartan bloques con < 20 muestras.
+
+Huecos: 11   Bloques: 11
+Filas alineadas: 29579   dentro de bloques: 29562   descartadas: 17
+Interpoladas: 0
+
+Huecos más largos:
+             inicio                 fin  duracion_h
+2026-08-16 10:21:55 2026-08-18 13:03:10   50.687500
+2026-07-16 11:20:17 2026-07-16 22:45:16   11.416389
+2026-06-29 12:21:19 2026-06-29 22:16:23    9.917778
+2026-07-21 03:15:33 2026-07-21 13:07:04    9.858611
+2026-09-10 09:54:48 2026-09-10 11:02:24    1.126667
+2026-09-14 12:34:52 2026-09-14 13:38:06    1.053889
+2026-06-25 22:03:00 2026-06-25 22:46:10    0.719444
+2026-09-15 14:43:27 2026-09-15 15:25:17    0.697222
+2026-08-14 10:56:48 2026-08-14 11:36:48    0.666667
+2026-09-11 03:14:44 2026-09-11 03:49:46    0.583889

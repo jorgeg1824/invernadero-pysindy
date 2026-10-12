@@ -1,0 +1,38 @@
+{
+  "particion": [
+    {
+      "conjunto": "entrenamiento",
+      "inicio": "2026-08-18T13:05:00+00:00",
+      "fin": "2026-09-08T15:25:00+00:00",
+      "dias": 21.09722222222222,
+      "muestras": 6077
+    },
+    {
+      "conjunto": "prediccion",
+      "inicio": "2026-09-08T15:30:00+00:00",
+      "fin": "2026-09-28T15:25:00+00:00",
+      "dias": 19.99652777777778,
+      "muestras": 5760
+    }
+  ],
+  "derivada": {
+    "threshold": 0.001,
+    "alpha": 0.001,
+    "derivada": "savgol deriv=1 (malla uniforme)",
+    "ventana_savgol": 21,
+    "polyorder": 2,
+    "paso_h": 0.08333333333333333
+  },
+  "normalizacion": {
+    "media": {
+      "Temperatura": 22.465920405671262,
+      "Luminosidad": 2492.1191203628737,
+      "Humedad": 75.07317774360439
+    },
+    "desviacion": {
+      "Temperatura": 8.753251383406349,
+      "Luminosidad": 3829.4668136654464,
+      "Humedad": 29.381293152717795
+    }
+  }
+}

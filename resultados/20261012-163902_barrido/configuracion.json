@@ -1,0 +1,22 @@
+{
+  "tolerancia_alineacion": 2.0,
+  "factor_corte_bloques": 4.0,
+  "factor_limpieza": 5.0,
+  "dias_minimos_tramo": 6.0,
+  "dias_entrenamiento": 5.0,
+  "ventana_savgol": 21,
+  "polyorder_savgol": 2,
+  "thresholds": [
+    1e-05,
+    3e-05,
+    0.0001,
+    0.0003,
+    0.001,
+    0.003,
+    0.01
+  ],
+  "alpha": 0.001,
+  "unidad_tiempo": "s",
+  "seleccion_threshold": "validacion",
+  "fraccion_seleccion": 0.2
+}

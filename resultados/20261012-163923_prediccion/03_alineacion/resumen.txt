@@ -1,0 +1,22 @@
+Alineación
+==========
+
+Criterio: a cada instante de Temperatura se le asigna la L y la H más cercanas (merge_asof 'nearest'), si están a menos de 2 x dt típico.
+
+  dt_por_variable_s:
+    Temperatura: 300
+    Luminosidad: 300
+    Humedad: 300
+  dt_referencia_s: 300
+  tolerancia_s: 600
+  filas_temperatura: 29585
+  filas_alineadas: 29579
+  duplicados_eliminados: 6
+  sin_pareja_dentro_de_tolerancia:
+    Luminosidad: 0
+    Humedad: 0
+
+Desfases [s] respecto a T:
+                         count  mean  std  min  25%  50%  75%  max
+desfase_Luminosidad_s  29585.0   0.0  0.0  0.0  0.0  0.0  0.0  0.0
+desfase_Humedad_s      29585.0   0.0  0.0  0.0  0.0  0.0  0.0  0.0

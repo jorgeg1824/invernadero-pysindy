@@ -1,0 +1,27 @@
+Limpieza y relleno de huecos
+============================
+
+Huecos > 2 h separan tramos; los huecos menores se rellenan interpolando en el tiempo sobre una malla de 5 min.
+
+  mediciones_originales: 29579
+  mediciones_dentro_de_tramos: 29579
+  mediciones_fuera_de_tramos (descartadas): 0
+  puntos_malla: 29256
+  puntos_interpolados_entre_mediciones_vecinas: 29200
+  puntos_rellenados_en_huecos: 56
+  paso_min: 5
+
+Tramos:
+ bloque                    inicio                       fin      dias  muestras
+      0 2026-06-15 15:40:00+00:00 2026-06-29 12:20:00+00:00 13.861111      3993
+      1 2026-06-29 22:20:00+00:00 2026-07-16 11:20:00+00:00 16.541667      4765
+      2 2026-07-16 22:50:00+00:00 2026-07-21 03:15:00+00:00  4.184028      1206
+      3 2026-07-21 13:10:00+00:00 2026-08-16 10:20:00+00:00 25.881944      7455
+      4 2026-08-18 13:05:00+00:00 2026-09-28 15:25:00+00:00 41.097222     11837
+
+Huecos que separan tramos:
+             inicio                 fin  duracion_h
+2026-06-29 12:21:19 2026-06-29 22:16:23    9.917778
+2026-07-16 11:20:17 2026-07-16 22:45:16   11.416389
+2026-07-21 03:15:33 2026-07-21 13:07:04    9.858611
+2026-08-16 10:21:55 2026-08-18 13:03:10   50.687500

@@ -1,0 +1,6 @@
+Simulación y evaluación
+=======================
+
+Integrador: solve_ivp RK45 (variables normalizadas)
+Validación: 2026-06-20 15:37:40+00:00 -> 2026-06-25 22:03:00+00:00 (1533 muestras)
+RMSE = 2.6448 °C   MAE = 2.0112 °C   R² = 0.9241  (threshold elegido con estos mismos datos)

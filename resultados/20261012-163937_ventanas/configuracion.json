@@ -1,0 +1,17 @@
+{
+  "paso_ventanas_dias": 4,
+  "prediccion": {
+    "tolerancia_alineacion": 2.0,
+    "dias_prediccion": 20.0,
+    "dias_entrenamiento_min": 5.0,
+    "max_hueco_horas": 2.0,
+    "paso_minutos": 5.0,
+    "threshold": 0.001,
+    "alpha": 0.001,
+    "ventana_savgol": 21,
+    "polyorder_savgol": 2,
+    "zona_horaria": "America/Bogota",
+    "ajustar_por_simulacion": true,
+    "mostrar_en_segundos": true
+  }
+}

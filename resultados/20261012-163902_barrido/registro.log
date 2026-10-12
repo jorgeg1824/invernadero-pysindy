@@ -1,0 +1,24 @@
+16:39:02 [etapa 1] Leído /home/claude/invernadero-pysindy/datos_ejemplo/Aeronic_export_29_09_2026.csv: 147927 filas, columnas ['device_name', 'metric_name', 'datetime_utc', 'number_value']
+16:39:02 [etapa 1] Datos originales
+16:39:04 [etapa 2] Todas las fechas terminan en 'Z': están explícitamente en UTC.
+16:39:04 [etapa 2] Filas del CSV -> filas con fecha y valor válidos: 147927 -> 147927 registros (+0)
+16:39:04 [etapa 2] Serie Temperatura: 29585 muestras
+16:39:04 [etapa 2] Serie Luminosidad: 29586 muestras
+16:39:04 [etapa 2] Serie Humedad: 29585 muestras
+16:39:04 [etapa 2] Transformación
+16:39:04 [etapa 3] Muestras de T -> filas alineadas: 29585 -> 29579 registros (-6)
+16:39:04 [etapa 3] Alineación
+16:39:06 [etapa 4] Filas alineadas -> filas dentro de bloques (>= 20 muestras): 29579 -> 29562 registros (-17)
+16:39:06 [etapa 4] Limpieza y segmentación
+16:39:06 [etapa 5] limpiar_tramo() sobre el tramo elegido: 3027 -> 3027 registros (+0)
+16:39:06 [etapa 5] Selección del tramo
+16:39:07 [etapa 6] Preparación del modelo
+16:39:09 [etapa 7] threshold=1e-05 RMSE=2.82039 R2=0.91367 terminos=4
+16:39:12 [etapa 7] threshold=3e-05 RMSE=2.82039 R2=0.91367 terminos=4
+16:39:14 [etapa 7] threshold=0.0001 RMSE=2.82039 R2=0.91367 terminos=4
+16:39:15 [etapa 7] threshold=0.0003 RMSE=2.82039 R2=0.91367 terminos=4
+16:39:17 [etapa 7] threshold=0.001 RMSE=2.84653 R2=0.91206 terminos=3
+16:39:19 [etapa 7] threshold=0.003 RMSE=2.84653 R2=0.91206 terminos=3
+16:39:21 [etapa 7] threshold=0.01 RMSE=2.64484 R2=0.92408 terminos=2
+16:39:21 [etapa 7] Identificación
+16:39:22 [etapa 8] Simulación y evaluación

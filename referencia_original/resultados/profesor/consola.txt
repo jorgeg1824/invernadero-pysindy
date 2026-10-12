@@ -1,0 +1,7 @@
+threshold=1e-05 RMSE=2.82035 R2=0.91367 terminos=4
+threshold=3e-05 RMSE=2.82035 R2=0.91367 terminos=4
+threshold=0.0001 RMSE=2.82035 R2=0.91367 terminos=4
+threshold=0.0003 RMSE=2.82035 R2=0.91367 terminos=4
+threshold=0.001 RMSE=2.82035 R2=0.91367 terminos=4
+threshold=0.003 RMSE=2.82035 R2=0.91367 terminos=4
+threshold=0.01 RMSE=2.82035 R2=0.91367 terminos=4

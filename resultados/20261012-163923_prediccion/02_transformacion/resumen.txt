@@ -1,0 +1,39 @@
+Transformación
+==============
+
+Conversión de fechas:
+  tipo_antes: str
+  tipo_despues: datetime64[us, UTC]
+  fechas_no_convertibles: 0
+  ordenado_antes: True
+  ordenado_despues: True
+  zona_horaria:
+    total: 147927
+    con_zona: 147927
+    sufijos:
+      Z: 147927
+    conclusion: Todas las fechas terminan en 'Z': están explícitamente en UTC.
+  primera: 2026-06-15 15:36:17+00:00
+  ultima: 2026-09-28 15:28:41+00:00
+
+Construcción de series:
+  filas_entrada: 147927
+  filas_sin_fecha_o_valor: 0
+  metricas_ignoradas:
+    bomba: 29586
+    Suelo_pct: 29585
+  muestras_por_variable:
+    Temperatura: 29585
+    Luminosidad: 29586
+    Humedad: 29585
+
+Antes / después (primeras filas):
+      texto_original fecha_convertida_utc     metrica
+2026-06-15T15:36:17Z  2026-06-15 15:36:17 Temperatura
+2026-06-15T15:36:17Z  2026-06-15 15:36:17       bomba
+2026-06-15T15:36:17Z  2026-06-15 15:36:17     Humedad
+2026-06-15T15:36:17Z  2026-06-15 15:36:17 Luminosidad
+2026-06-15T15:36:17Z  2026-06-15 15:36:17   Suelo_pct
+2026-06-15T15:41:16Z  2026-06-15 15:41:16   Suelo_pct
+2026-06-15T15:41:16Z  2026-06-15 15:41:16       bomba
+2026-06-15T15:41:16Z  2026-06-15 15:41:16     Humedad

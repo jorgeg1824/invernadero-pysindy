@@ -1,0 +1,82 @@
+===== 1_abrir_csv =====
+ARCHIVO CARGADO
+
+Filas originales: 147927
+Filas alineadas: 29579
+dt típico: 300.000 s
+Timestamps duplicados eliminados: 6
+
+Temperatura: 29585 muestras
+Luminosidad: 29586 muestras
+Humedad: 29585 muestras
+
+
+
+===== 2_buscar_mejor_tramo =====
+MEJOR TRAMO ENCONTRADO
+=======================
+
+Inicio:
+2026-06-15 15:36:17+00:00
+
+Fin:
+2026-06-25 22:03:00+00:00
+
+Duración:
+246.45 horas
+
+Muestras:
+3027
+
+Excitación:
+620.64244
+
+Score:
+282.32025
+
+Bloques encontrados: 5
+
+
+
+===== 3_ejecutar_pysindy =====
+EJECUTANDO PYSINDY
+===================
+
+Train: 1494 muestras
+Validación: 1533 muestras
+Duración entrenamiento: 5.00 días
+Duración validación: 5.27 días
+
+Buscando threshold...
+
+MODELO SELECCIONADO
+--------------------
+
+Threshold: 1e-05
+
+Ecuación física:
+
+dT/dt = 35.918599 + (-0.77755486)·T + (5.1905572e-05)·L + (-0.23417621)·H
+
+Validación:
+
+RMSE = 2.82035
+MAE = 2.05158
+R² = 0.91367
+
+Modelo PySINDy:
+
+SINDy(differentiation_method=FiniteDifference(axis=-2),
+      feature_library=PolynomialLibrary(degree=1),
+      optimizer=STLSQ(alpha=0.001, normalize_columns=True, threshold=1e-05))
+
+THRESHOLDS PROBADOS
+--------------------
+1e-05   RMSE=2.82035   R²=0.91367   términos=4
+3e-05   RMSE=2.82035   R²=0.91367   términos=4
+0.0001   RMSE=2.82035   R²=0.91367   términos=4
+0.0003   RMSE=2.82035   R²=0.91367   términos=4
+0.001   RMSE=2.82035   R²=0.91367   términos=4
+0.003   RMSE=2.82035   R²=0.91367   términos=4
+0.01   RMSE=2.82035   R²=0.91367   términos=4
+

@@ -1,0 +1,16 @@
+{
+  "motivo": "11 bloques continuos; 5 duran al menos 6 días. Se eligió el de mayor puntaje 0.55·log(1+horas) + 0.45·excitación = 282.320 (duración 10.27 días, excitación 620.642).",
+  "inicio": "2026-06-15T15:36:17+00:00",
+  "fin": "2026-06-25T22:03:00+00:00",
+  "duracion_dias": 10.26855324074074,
+  "puntaje": 282.32025282290454,
+  "excitacion": 620.6424413804075,
+  "limpieza": {
+    "filas_antes": 3027,
+    "filas_con_nan": 0,
+    "filas_despues": 3027,
+    "filas_descartadas": 0,
+    "descartadas_por_salto_temporal": 0,
+    "interpoladas": 0
+  }
+}

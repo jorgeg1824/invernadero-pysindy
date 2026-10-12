@@ -1,0 +1,8 @@
+{
+  "metricas_validacion": {
+    "RMSE": 2.6448350544448704,
+    "MAE": 2.0111736450995417,
+    "R2": 0.9240788562839451
+  },
+  "seleccion_independiente": false
+}

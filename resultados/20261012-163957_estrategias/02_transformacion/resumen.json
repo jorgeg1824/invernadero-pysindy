@@ -1,0 +1,32 @@
+{
+  "conversion_fechas": {
+    "tipo_antes": "str",
+    "tipo_despues": "datetime64[us, UTC]",
+    "fechas_no_convertibles": 0,
+    "ordenado_antes": true,
+    "ordenado_despues": true,
+    "zona_horaria": {
+      "total": 147927,
+      "con_zona": 147927,
+      "sufijos": {
+        "Z": 147927
+      },
+      "conclusion": "Todas las fechas terminan en 'Z': están explícitamente en UTC."
+    },
+    "primera": "2026-06-15 15:36:17+00:00",
+    "ultima": "2026-09-28 15:28:41+00:00"
+  },
+  "construccion_series": {
+    "filas_entrada": 147927,
+    "filas_sin_fecha_o_valor": 0,
+    "metricas_ignoradas": {
+      "bomba": 29586,
+      "Suelo_pct": 29585
+    },
+    "muestras_por_variable": {
+      "Temperatura": 29585,
+      "Luminosidad": 29586,
+      "Humedad": 29585
+    }
+  }
+}

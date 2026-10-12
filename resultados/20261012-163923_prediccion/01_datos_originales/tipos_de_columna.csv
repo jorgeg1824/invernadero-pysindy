@@ -1,0 +1,5 @@
+columna,tipo,nulos,ejemplo
+device_name,str,0,Monitoreo de variables ambientales
+metric_name,str,0,Temperatura
+datetime_utc,str,0,2026-06-15T15:36:17Z
+number_value,float64,0,23.1

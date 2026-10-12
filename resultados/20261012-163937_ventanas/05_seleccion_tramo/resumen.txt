@@ -1,0 +1,13 @@
+Selección de tramos y ventanas
+==============================
+
+Se usan todos los tramos de al menos 25 días (2). En cada uno se recorta el final cada 4 días: 6 ventanas.
+Las ventanas de un mismo tramo se solapan y comparten parte del entrenamiento.
+
+             tramo_inicio  dias_desde_inicio
+2026-07-21 13:10:00+00:00          25.881944
+2026-08-18 13:05:00+00:00          25.000000
+2026-08-18 13:05:00+00:00          29.000000
+2026-08-18 13:05:00+00:00          33.000000
+2026-08-18 13:05:00+00:00          37.000000
+2026-08-18 13:05:00+00:00          41.097222

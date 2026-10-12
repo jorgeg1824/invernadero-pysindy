@@ -1,0 +1,4 @@
+Selección del tramo
+===================
+
+5 tramos rellenados; 2 duran al menos 20 + 5 días. Se eligió el de más muestras (11837, 41.10 días).

@@ -1,0 +1,37 @@
+{
+  "particion": [
+    {
+      "conjunto": "entrenamiento",
+      "inicio": "2026-06-15T15:36:17+00:00",
+      "fin": "2026-06-20T15:32:41+00:00",
+      "dias": 4.9975,
+      "muestras": 1494
+    },
+    {
+      "conjunto": "validacion",
+      "inicio": "2026-06-20T15:37:40+00:00",
+      "fin": "2026-06-25T22:03:00+00:00",
+      "dias": 5.267592592592592,
+      "muestras": 1533
+    }
+  ],
+  "derivada": {
+    "derivada": "savgol+gradiente (tiempo real)",
+    "ventana_savgol": 21,
+    "polyorder": 2,
+    "unidad_tiempo": "s",
+    "unidad_efectiva": "s"
+  },
+  "normalizacion": {
+    "media": {
+      "Temperatura": 22.041091030789826,
+      "Luminosidad": 2026.5077309236947,
+      "Humedad": 76.750374832664
+    },
+    "desviacion": {
+      "Temperatura": 8.107541274423406,
+      "Luminosidad": 3589.013742298801,
+      "Humedad": 28.474322637399073
+    }
+  }
+}

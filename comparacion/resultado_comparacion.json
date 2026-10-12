@@ -1,0 +1,1478 @@
+[
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='original')",
+    "aspecto": "filas CSV",
+    "original": "147927",
+    "modular": "147927",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='original')",
+    "aspecto": "muestras por variable",
+    "original": "{'Temperatura': 29585, 'Luminosidad': 29586, 'Humedad': 29585}",
+    "modular": "{'Temperatura': 29585, 'Luminosidad': 29586, 'Humedad': 29585}",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='original')",
+    "aspecto": "filas alineadas",
+    "original": "29579",
+    "modular": "29579",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='original')",
+    "aspecto": "duplicados eliminados",
+    "original": "6",
+    "modular": "6",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='original')",
+    "aspecto": "muestras del tramo",
+    "original": "3027",
+    "modular": "3027",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='original')",
+    "aspecto": "muestras tramo limpio",
+    "original": "3027",
+    "modular": "3027",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='original')",
+    "aspecto": "muestras entrenamiento",
+    "original": "1494",
+    "modular": "1494",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='original')",
+    "aspecto": "muestras validación",
+    "original": "1533",
+    "modular": "1533",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='original')",
+    "aspecto": "inicio del tramo",
+    "original": "2026-06-15T15:36:17+00:00",
+    "modular": "2026-06-15T15:36:17+00:00",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='original')",
+    "aspecto": "fin del tramo",
+    "original": "2026-06-25T22:03:00+00:00",
+    "modular": "2026-06-25T22:03:00+00:00",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='original')",
+    "aspecto": "puntaje del tramo",
+    "original": "282.3202528",
+    "modular": "282.3202528",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-09 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='original')",
+    "aspecto": "thresholds probados",
+    "original": "[1e-05, 3e-05, 0.0001, 0.0003, 0.001, 0.003, 0.01]",
+    "modular": "[1e-05, 3e-05, 0.0001, 0.0003, 0.001, 0.003, 0.01]",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='original')",
+    "aspecto": "threshold elegido",
+    "original": "1e-05",
+    "modular": "1e-05",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='original')",
+    "aspecto": "coeficiente a0",
+    "original": "35.91859859",
+    "modular": "35.91859859",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-09 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='original')",
+    "aspecto": "coeficiente aT",
+    "original": "-0.7775548613",
+    "modular": "-0.7775548613",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-09 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='original')",
+    "aspecto": "coeficiente aL",
+    "original": "5.190557155e-05",
+    "modular": "5.190557155e-05",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-09 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='original')",
+    "aspecto": "coeficiente aH",
+    "original": "-0.2341762053",
+    "modular": "-0.2341762053",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-09 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='original')",
+    "aspecto": "RMSE barrido th=1e-05",
+    "original": "2.820347456",
+    "modular": "2.820347456",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='original')",
+    "aspecto": "términos th=1e-05",
+    "original": "4",
+    "modular": "4",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='original')",
+    "aspecto": "RMSE barrido th=3e-05",
+    "original": "2.820347456",
+    "modular": "2.820347456",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='original')",
+    "aspecto": "términos th=3e-05",
+    "original": "4",
+    "modular": "4",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='original')",
+    "aspecto": "RMSE barrido th=0.0001",
+    "original": "2.820347456",
+    "modular": "2.820347456",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='original')",
+    "aspecto": "términos th=0.0001",
+    "original": "4",
+    "modular": "4",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='original')",
+    "aspecto": "RMSE barrido th=0.0003",
+    "original": "2.820347456",
+    "modular": "2.820347456",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='original')",
+    "aspecto": "términos th=0.0003",
+    "original": "4",
+    "modular": "4",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='original')",
+    "aspecto": "RMSE barrido th=0.001",
+    "original": "2.820347456",
+    "modular": "2.820347456",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='original')",
+    "aspecto": "términos th=0.001",
+    "original": "4",
+    "modular": "4",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='original')",
+    "aspecto": "RMSE barrido th=0.003",
+    "original": "2.820347456",
+    "modular": "2.820347456",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='original')",
+    "aspecto": "términos th=0.003",
+    "original": "4",
+    "modular": "4",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='original')",
+    "aspecto": "RMSE barrido th=0.01",
+    "original": "2.820347456",
+    "modular": "2.820347456",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='original')",
+    "aspecto": "términos th=0.01",
+    "original": "4",
+    "modular": "4",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='original')",
+    "aspecto": "trayectoria simulada (validación)",
+    "original": "1533 valores",
+    "modular": "1533 valores",
+    "diferencia": "7.11e-15 °C máx",
+    "tolerancia": "1e-06 °C",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='original')",
+    "aspecto": "métrica RMSE",
+    "original": "2.820347456",
+    "modular": "2.820347456",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='original')",
+    "aspecto": "métrica MAE",
+    "original": "2.051577883",
+    "modular": "2.051577883",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='original')",
+    "aspecto": "métrica R2",
+    "original": "0.9136682017",
+    "modular": "0.9136682017",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='s' vs original con pandas 2)",
+    "aspecto": "filas CSV",
+    "original": "147927",
+    "modular": "147927",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='s' vs original con pandas 2)",
+    "aspecto": "muestras por variable",
+    "original": "{'Temperatura': 29585, 'Luminosidad': 29586, 'Humedad': 29585}",
+    "modular": "{'Temperatura': 29585, 'Luminosidad': 29586, 'Humedad': 29585}",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='s' vs original con pandas 2)",
+    "aspecto": "filas alineadas",
+    "original": "29579",
+    "modular": "29579",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='s' vs original con pandas 2)",
+    "aspecto": "duplicados eliminados",
+    "original": "6",
+    "modular": "6",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='s' vs original con pandas 2)",
+    "aspecto": "muestras del tramo",
+    "original": "3027",
+    "modular": "3027",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='s' vs original con pandas 2)",
+    "aspecto": "muestras tramo limpio",
+    "original": "3027",
+    "modular": "3027",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='s' vs original con pandas 2)",
+    "aspecto": "muestras entrenamiento",
+    "original": "1494",
+    "modular": "1494",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='s' vs original con pandas 2)",
+    "aspecto": "muestras validación",
+    "original": "1533",
+    "modular": "1533",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='s' vs original con pandas 2)",
+    "aspecto": "inicio del tramo",
+    "original": "2026-06-15T15:36:17+00:00",
+    "modular": "2026-06-15T15:36:17+00:00",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='s' vs original con pandas 2)",
+    "aspecto": "fin del tramo",
+    "original": "2026-06-25T22:03:00+00:00",
+    "modular": "2026-06-25T22:03:00+00:00",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='s' vs original con pandas 2)",
+    "aspecto": "puntaje del tramo",
+    "original": "282.3202528",
+    "modular": "282.3202528",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-09 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='s' vs original con pandas 2)",
+    "aspecto": "thresholds probados",
+    "original": "[1e-05, 3e-05, 0.0001, 0.0003, 0.001, 0.003, 0.01]",
+    "modular": "[1e-05, 3e-05, 0.0001, 0.0003, 0.001, 0.003, 0.01]",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='s' vs original con pandas 2)",
+    "aspecto": "threshold elegido",
+    "original": "0.01",
+    "modular": "0.01",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='s' vs original con pandas 2)",
+    "aspecto": "coeficiente a0",
+    "original": "0.0348599055",
+    "modular": "0.0348599055",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-09 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='s' vs original con pandas 2)",
+    "aspecto": "coeficiente aT",
+    "original": "-0.0007635394556",
+    "modular": "-0.0007635394556",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-09 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='s' vs original con pandas 2)",
+    "aspecto": "coeficiente aL",
+    "original": "0",
+    "modular": "0",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-09 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='s' vs original con pandas 2)",
+    "aspecto": "coeficiente aH",
+    "original": "-0.0002349260559",
+    "modular": "-0.0002349260559",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-09 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='s' vs original con pandas 2)",
+    "aspecto": "RMSE barrido th=1e-05",
+    "original": "2.820392301",
+    "modular": "2.820392301",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='s' vs original con pandas 2)",
+    "aspecto": "términos th=1e-05",
+    "original": "4",
+    "modular": "4",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='s' vs original con pandas 2)",
+    "aspecto": "RMSE barrido th=3e-05",
+    "original": "2.820392301",
+    "modular": "2.820392301",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='s' vs original con pandas 2)",
+    "aspecto": "términos th=3e-05",
+    "original": "4",
+    "modular": "4",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='s' vs original con pandas 2)",
+    "aspecto": "RMSE barrido th=0.0001",
+    "original": "2.820392301",
+    "modular": "2.820392301",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='s' vs original con pandas 2)",
+    "aspecto": "términos th=0.0001",
+    "original": "4",
+    "modular": "4",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='s' vs original con pandas 2)",
+    "aspecto": "RMSE barrido th=0.0003",
+    "original": "2.820392301",
+    "modular": "2.820392301",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='s' vs original con pandas 2)",
+    "aspecto": "términos th=0.0003",
+    "original": "4",
+    "modular": "4",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='s' vs original con pandas 2)",
+    "aspecto": "RMSE barrido th=0.001",
+    "original": "2.846528632",
+    "modular": "2.846528632",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='s' vs original con pandas 2)",
+    "aspecto": "términos th=0.001",
+    "original": "3",
+    "modular": "3",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='s' vs original con pandas 2)",
+    "aspecto": "RMSE barrido th=0.003",
+    "original": "2.846528632",
+    "modular": "2.846528632",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='s' vs original con pandas 2)",
+    "aspecto": "términos th=0.003",
+    "original": "3",
+    "modular": "3",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='s' vs original con pandas 2)",
+    "aspecto": "RMSE barrido th=0.01",
+    "original": "2.644835054",
+    "modular": "2.644835054",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='s' vs original con pandas 2)",
+    "aspecto": "términos th=0.01",
+    "original": "2",
+    "modular": "2",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='s' vs original con pandas 2)",
+    "aspecto": "trayectoria simulada (validación)",
+    "original": "1533 valores",
+    "modular": "1533 valores",
+    "diferencia": "7.11e-15 °C máx",
+    "tolerancia": "1e-06 °C",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='s' vs original con pandas 2)",
+    "aspecto": "métrica RMSE",
+    "original": "2.644835054",
+    "modular": "2.644835054",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='s' vs original con pandas 2)",
+    "aspecto": "métrica MAE",
+    "original": "2.011173645",
+    "modular": "2.011173645",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_profesor.py vs barrido (unidad_tiempo='s' vs original con pandas 2)",
+    "aspecto": "métrica R2",
+    "original": "0.9240788563",
+    "modular": "0.9240788563",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_20dias.py vs prediccion",
+    "aspecto": "filas alineadas",
+    "original": "29579",
+    "modular": "29579",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_20dias.py vs prediccion",
+    "aspecto": "tramos rellenados",
+    "original": "5",
+    "modular": "5",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_20dias.py vs prediccion",
+    "aspecto": "muestras del tramo",
+    "original": "11837",
+    "modular": "11837",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_20dias.py vs prediccion",
+    "aspecto": "muestras entrenamiento",
+    "original": "6077",
+    "modular": "6077",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_20dias.py vs prediccion",
+    "aspecto": "muestras predicción",
+    "original": "5760",
+    "modular": "5760",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_20dias.py vs prediccion",
+    "aspecto": "inicio del tramo",
+    "original": "2026-08-18T13:05:00+00:00",
+    "modular": "2026-08-18T13:05:00+00:00",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_20dias.py vs prediccion",
+    "aspecto": "fin del tramo",
+    "original": "2026-09-28T15:25:00+00:00",
+    "modular": "2026-09-28T15:25:00+00:00",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_20dias.py vs prediccion",
+    "aspecto": "parámetros",
+    "original": "{'THRESHOLD': 0.001, 'MAX_HUECO_HORAS': 2, 'DIAS_PREDICCION': 20}",
+    "modular": "{'THRESHOLD': 0.001, 'MAX_HUECO_HORAS': 2.0, 'DIAS_PREDICCION': 20.0}",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_20dias.py vs prediccion",
+    "aspecto": "coef. PySINDy (/h) a0",
+    "original": "-8.792055147",
+    "modular": "-8.792055147",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-09 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_20dias.py vs prediccion",
+    "aspecto": "coef. PySINDy (/h) aT",
+    "original": "0.1484967133",
+    "modular": "0.1484967133",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-09 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_20dias.py vs prediccion",
+    "aspecto": "coef. PySINDy (/h) aL",
+    "original": "0.0001714638272",
+    "modular": "0.0001714638272",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-09 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_20dias.py vs prediccion",
+    "aspecto": "coef. PySINDy (/h) aH",
+    "original": "0.06723541877",
+    "modular": "0.06723541877",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-09 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_20dias.py vs prediccion",
+    "aspecto": "coef. ajustado (/h) a0",
+    "original": "584.4918723",
+    "modular": "584.4918723",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_20dias.py vs prediccion",
+    "aspecto": "coef. ajustado (/h) aT",
+    "original": "-17.99452548",
+    "modular": "-17.99452548",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_20dias.py vs prediccion",
+    "aspecto": "coef. ajustado (/h) aL",
+    "original": "0.01886589654",
+    "modular": "0.01886589654",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_20dias.py vs prediccion",
+    "aspecto": "coef. ajustado (/h) aH",
+    "original": "-3.026742138",
+    "modular": "-3.026742138",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_20dias.py vs prediccion",
+    "aspecto": "trayectoria predicción 20 días",
+    "original": "5760 valores",
+    "modular": "5760 valores",
+    "diferencia": "7.11e-15 °C máx",
+    "tolerancia": "1e-06 °C",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_20dias.py vs prediccion",
+    "aspecto": "referencia perfil diario",
+    "original": "5760 valores",
+    "modular": "5760 valores",
+    "diferencia": "7.11e-15 °C máx",
+    "tolerancia": "1e-06 °C",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_20dias.py vs prediccion",
+    "aspecto": "trayectoria todo el archivo",
+    "original": "29256 valores",
+    "modular": "29256 valores",
+    "diferencia": "7.11e-15 °C máx",
+    "tolerancia": "1e-06 °C",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_20dias.py vs prediccion",
+    "aspecto": "métrica predicción RMSE",
+    "original": "1.364947093",
+    "modular": "1.364947093",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_20dias.py vs prediccion",
+    "aspecto": "métrica predicción MAE",
+    "original": "1.049217826",
+    "modular": "1.049217826",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_20dias.py vs prediccion",
+    "aspecto": "métrica predicción R2",
+    "original": "0.9657044688",
+    "modular": "0.9657044688",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_20dias.py vs prediccion",
+    "aspecto": "métrica referencia RMSE",
+    "original": "3.922968271",
+    "modular": "3.922968271",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-09 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_20dias.py vs prediccion",
+    "aspecto": "métrica referencia MAE",
+    "original": "2.363285377",
+    "modular": "2.363285377",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-09 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_20dias.py vs prediccion",
+    "aspecto": "métrica referencia R2",
+    "original": "0.7167072316",
+    "modular": "0.7167072316",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-09 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_20dias.py vs prediccion",
+    "aspecto": "métrica archivo RMSE",
+    "original": "1.628275998",
+    "modular": "1.628275998",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_20dias.py vs prediccion",
+    "aspecto": "métrica archivo MAE",
+    "original": "1.213962115",
+    "modular": "1.213962115",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_20dias.py vs prediccion",
+    "aspecto": "métrica archivo R2",
+    "original": "0.9635687161",
+    "modular": "0.9635687161",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_20dias.py vs prediccion",
+    "aspecto": "MAE 2026-06",
+    "original": "1.397446032",
+    "modular": "1.397446032",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_20dias.py vs prediccion",
+    "aspecto": "MAE 2026-07",
+    "original": "1.152692411",
+    "modular": "1.152692411",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_20dias.py vs prediccion",
+    "aspecto": "MAE 2026-08",
+    "original": "1.368380194",
+    "modular": "1.368380194",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_20dias.py vs prediccion",
+    "aspecto": "MAE 2026-09",
+    "original": "1.049742582",
+    "modular": "1.049742582",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "invernadero_20dias.py vs prediccion",
+    "aspecto": "MAE por día",
+    "original": "20 valores",
+    "modular": "20 valores",
+    "diferencia": "0.00e+00 °C máx",
+    "tolerancia": "1e-06 °C",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "cantidad de ventanas",
+    "original": "6",
+    "modular": "6",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V1 nombre",
+    "original": "27-Jul a 16-Aug",
+    "modular": "27-Jul a 16-Aug",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V1 inicio predicción",
+    "original": "2026-07-27T10:25:00+00:00",
+    "modular": "2026-07-27T10:25:00+00:00",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V1 coef. ajustado a0",
+    "original": "520.0914903",
+    "modular": "520.0914903",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V1 coef. ajustado aT",
+    "original": "-16.41266303",
+    "modular": "-16.41266303",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V1 coef. ajustado aL",
+    "original": "0.01591142067",
+    "modular": "0.01591142067",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V1 coef. ajustado aH",
+    "original": "-2.622501451",
+    "modular": "-2.622501451",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V1 métrica RMSE",
+    "original": "1.619735559",
+    "modular": "1.619735559",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V1 métrica MAE",
+    "original": "1.262260449",
+    "modular": "1.262260449",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V1 métrica R2",
+    "original": "0.9695660809",
+    "modular": "0.9695660809",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V1 peor día MAE",
+    "original": "2.279244506",
+    "modular": "2.279244506",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V2 nombre",
+    "original": "23-Aug a 12-Sep",
+    "modular": "23-Aug a 12-Sep",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V2 inicio predicción",
+    "original": "2026-08-23T13:10:00+00:00",
+    "modular": "2026-08-23T13:10:00+00:00",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V2 coef. ajustado a0",
+    "original": "493.9143058",
+    "modular": "493.9143058",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V2 coef. ajustado aT",
+    "original": "-15.13133067",
+    "modular": "-15.13133067",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V2 coef. ajustado aL",
+    "original": "0.01592729039",
+    "modular": "0.01592729039",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V2 coef. ajustado aH",
+    "original": "-2.627333454",
+    "modular": "-2.627333454",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V2 métrica RMSE",
+    "original": "1.437736746",
+    "modular": "1.437736746",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V2 métrica MAE",
+    "original": "1.139815143",
+    "modular": "1.139815143",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V2 métrica R2",
+    "original": "0.9735528531",
+    "modular": "0.9735528531",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V2 peor día MAE",
+    "original": "1.512501739",
+    "modular": "1.512501739",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V3 nombre",
+    "original": "27-Aug a 16-Sep",
+    "modular": "27-Aug a 16-Sep",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V3 inicio predicción",
+    "original": "2026-08-27T13:10:00+00:00",
+    "modular": "2026-08-27T13:10:00+00:00",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V3 coef. ajustado a0",
+    "original": "571.9403646",
+    "modular": "571.9403646",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V3 coef. ajustado aT",
+    "original": "-17.5797225",
+    "modular": "-17.5797225",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V3 coef. ajustado aL",
+    "original": "0.01823023194",
+    "modular": "0.01823023194",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V3 coef. ajustado aH",
+    "original": "-2.968786184",
+    "modular": "-2.968786184",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V3 métrica RMSE",
+    "original": "1.413509709",
+    "modular": "1.413509709",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V3 métrica MAE",
+    "original": "1.097813431",
+    "modular": "1.097813431",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V3 métrica R2",
+    "original": "0.9741541315",
+    "modular": "0.9741541315",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V3 peor día MAE",
+    "original": "1.698650383",
+    "modular": "1.698650383",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V4 nombre",
+    "original": "31-Aug a 20-Sep",
+    "modular": "31-Aug a 20-Sep",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V4 inicio predicción",
+    "original": "2026-08-31T13:10:00+00:00",
+    "modular": "2026-08-31T13:10:00+00:00",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V4 coef. ajustado a0",
+    "original": "565.8460023",
+    "modular": "565.8460023",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V4 coef. ajustado aT",
+    "original": "-17.39622175",
+    "modular": "-17.39622175",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V4 coef. ajustado aL",
+    "original": "0.01837072637",
+    "modular": "0.01837072637",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V4 coef. ajustado aH",
+    "original": "-2.895528142",
+    "modular": "-2.895528142",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V4 métrica RMSE",
+    "original": "1.513213353",
+    "modular": "1.513213353",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V4 métrica MAE",
+    "original": "1.180826003",
+    "modular": "1.180826003",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V4 métrica R2",
+    "original": "0.9684422772",
+    "modular": "0.9684422772",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V4 peor día MAE",
+    "original": "1.902693686",
+    "modular": "1.902693686",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V5 nombre",
+    "original": "04-Sep a 24-Sep",
+    "modular": "04-Sep a 24-Sep",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V5 inicio predicción",
+    "original": "2026-09-04T13:10:00+00:00",
+    "modular": "2026-09-04T13:10:00+00:00",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V5 coef. ajustado a0",
+    "original": "633.5678965",
+    "modular": "633.5678965",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V5 coef. ajustado aT",
+    "original": "-19.18551845",
+    "modular": "-19.18551845",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V5 coef. ajustado aL",
+    "original": "0.01937151297",
+    "modular": "0.01937151297",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V5 coef. ajustado aH",
+    "original": "-3.283283708",
+    "modular": "-3.283283708",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V5 métrica RMSE",
+    "original": "1.506190502",
+    "modular": "1.506190502",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V5 métrica MAE",
+    "original": "1.181666612",
+    "modular": "1.181666612",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V5 métrica R2",
+    "original": "0.9635346562",
+    "modular": "0.9635346562",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V5 peor día MAE",
+    "original": "1.956677777",
+    "modular": "1.956677777",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V6 nombre",
+    "original": "08-Sep a 28-Sep",
+    "modular": "08-Sep a 28-Sep",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V6 inicio predicción",
+    "original": "2026-09-08T15:25:00+00:00",
+    "modular": "2026-09-08T15:25:00+00:00",
+    "diferencia": "-",
+    "tolerancia": "igual",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V6 coef. ajustado a0",
+    "original": "584.0261886",
+    "modular": "584.0261886",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V6 coef. ajustado aT",
+    "original": "-17.98236793",
+    "modular": "-17.98236793",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V6 coef. ajustado aL",
+    "original": "0.01885779903",
+    "modular": "0.01885779903",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V6 coef. ajustado aH",
+    "original": "-3.02397105",
+    "modular": "-3.02397105",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V6 métrica RMSE",
+    "original": "1.364943851",
+    "modular": "1.364943851",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V6 métrica MAE",
+    "original": "1.049209291",
+    "modular": "1.049209291",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V6 métrica R2",
+    "original": "0.9657118024",
+    "modular": "0.9657118024",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  },
+  {
+    "programa": "validar_modelo.py vs ventanas",
+    "aspecto": "V6 peor día MAE",
+    "original": "1.774797637",
+    "modular": "1.774797637",
+    "diferencia": "0.00e+00 rel",
+    "tolerancia": "1e-06 rel",
+    "ok": true
+  }
+]

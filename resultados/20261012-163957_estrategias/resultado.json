@@ -1,0 +1,47 @@
+{
+  "tabla": [
+    {
+      "estrategia": "A_identificacion_base",
+      "estable": false,
+      "terminos": "constante, T, L, H",
+      "a0": -8.792055146760978,
+      "aT": 0.14849671325842503,
+      "aL": 0.00017146382719458383,
+      "aH": 0.06723541876922594,
+      "identificado_con": "entrenamiento (6077)",
+      "elegido_con": "-",
+      "RMSE": 2.4015524317382936e+30,
+      "MAE": 4.0228218680539755e+29,
+      "R2": -1.0616712162873686e+59
+    },
+    {
+      "estrategia": "B_ajuste_por_simulacion",
+      "estable": true,
+      "terminos": "constante, T, L, H",
+      "a0": 584.49187230807,
+      "aT": -17.994525475033758,
+      "aL": 0.01886589654418686,
+      "aH": -3.0267421377733617,
+      "identificado_con": "entrenamiento (6077)",
+      "elegido_con": "-",
+      "RMSE": 1.3649470933845476,
+      "MAE": 1.0492178256472016,
+      "R2": 0.965704468832568
+    },
+    {
+      "estrategia": "C_barrido_threshold",
+      "estable": false,
+      "terminos": "constante, T, L, H",
+      "a0": -12.18914865661813,
+      "aT": 0.22932228185823164,
+      "aL": 0.00013206414136061239,
+      "aH": 0.08790403210482582,
+      "identificado_con": "entrenamiento (4861)",
+      "elegido_con": "seleccion (final del entrenamiento)",
+      "RMSE": 1.4745928424959558e+46,
+      "MAE": 1.9876960825450726e+45,
+      "R2": -4.002673266438473e+90
+    }
+  ],
+  "resumen": "COMPARACIÓN DE ESTRATEGIAS sobre la misma validación (2026-09-08 -> 2026-09-28)\n\n             estrategia  estable           terminos      RMSE       MAE         R2     identificado_con                         elegido_con\n  A_identificacion_base    False constante, T, L, H 2.402e+30 4.023e+29 -1.062e+59 entrenamiento (6077)                                   -\nB_ajuste_por_simulacion     True constante, T, L, H     1.365     1.049     0.9657 entrenamiento (6077)                                   -\n    C_barrido_threshold    False constante, T, L, H 1.475e+46 1.988e+45 -4.003e+90 entrenamiento (4861) seleccion (final del entrenamiento)"
+}

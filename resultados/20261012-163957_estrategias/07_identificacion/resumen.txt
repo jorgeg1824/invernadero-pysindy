@@ -1,0 +1,37 @@
+Identificación
+==============
+
+--- A_identificacion_base ---
+Estrategia: A_identificacion_base
+Parámetros: {'threshold': 0.001, 'alpha': 0.001, 'derivada': 'savgol deriv=1 (malla uniforme)', 'ventana_savgol': 21, 'polyorder': 2, 'paso_h': 0.08333333333333333}
+Identificado con: entrenamiento 2026-08-18 13:05 -> 2026-09-08 15:25 (6077 muestras)
+Términos activos: constante, T, L, H
+dT/dt = -8.7920551 + (0.14849671)·T + (0.00017146383)·L + (0.067235419)·H     [°C/h]
+inestable (aT ≥ 0): la simulación diverge
+
+--- B_ajuste_por_simulacion ---
+Estrategia: B_ajuste_por_simulacion
+Parámetros: {'optimizador': 'scipy.optimize.least_squares', 'objetivo': 'error de simulación en el entrenamiento', 'restriccion': 'aT = -exp(q) < 0', 'simulador': 'lsim', 'parte_de': 'A_identificacion_base', 'terminos_ajustados': ['constante', 'T', 'L', 'H']}
+Identificado con: entrenamiento 2026-08-18 13:05 -> 2026-09-08 15:25 (6077 muestras)
+Términos activos: constante, T, L, H
+dT/dt = 584.49187 + (-17.994525)·T + (0.018865897)·L + (-3.0267421)·H     [°C/h]
+τ = 3.33 min
+
+--- C_barrido_threshold ---
+Estrategia: C_barrido_threshold
+Parámetros: {'thresholds': [1e-05, 3e-05, 0.0001, 0.0003, 0.001, 0.003, 0.01], 'criterio': 'menor RMSE de simulación', 'threshold_elegido': 1e-05, 'identificacion': {'threshold': 1e-05, 'alpha': 0.001, 'derivada': 'savgol deriv=1 (malla uniforme)', 'ventana_savgol': 21, 'polyorder': 2, 'paso_h': 0.08333333333333333}}
+Identificado con: entrenamiento 2026-08-18 13:05 -> 2026-09-04 10:05 (4861 muestras)
+Elegido con: seleccion (final del entrenamiento) 2026-09-04 10:10 -> 2026-09-08 15:25 (1216 muestras)
+Términos activos: constante, T, L, H
+dT/dt = -12.189149 + (0.22932228)·T + (0.00013206414)·L + (0.087904032)·H     [°C/h]
+inestable (aT ≥ 0): la simulación diverge
+
+THRESHOLDS PROBADOS
+--------------------
+1e-05    RMSE=1.5271e+10 R²=-3.6106e+18 términos=4   (diverge)
+3e-05    RMSE=1.5271e+10 R²=-3.6106e+18 términos=4   (diverge)
+0.0001   RMSE=1.5271e+10 R²=-3.6106e+18 términos=4   (diverge)
+0.0003   RMSE=1.5271e+10 R²=-3.6106e+18 términos=4   (diverge)
+0.001    RMSE=1.5271e+10 R²=-3.6106e+18 términos=4   (diverge)
+0.003    RMSE=1.5271e+10 R²=-3.6106e+18 términos=4   (diverge)
+0.01     RMSE=1.5271e+10 R²=-3.6106e+18 términos=4   (diverge)

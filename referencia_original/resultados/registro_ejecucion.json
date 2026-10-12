@@ -1,0 +1,32 @@
+{
+  "entorno": {
+    "python": "3.13.14",
+    "sistema": "Linux-6.18.44-fc-v114-x86_64-with-glibc2.39",
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "scikit-learn": "1.9.1",
+    "pysindy": "2.1.0",
+    "md5_csv": "3267c05ecb05c7e9910749cc97413e9d",
+    "md5_originales": {
+      "invernadero_20dias.py": "3fb2c1df220c919195d8b7a6bf17d84a",
+      "invernadero_profesor.py": "e29b1872704c59b20f671165f326e3ca",
+      "validar_modelo.py": "201cc332a08fa9aea8adf2276eb7ad78"
+    }
+  },
+  "programas": {
+    "profesor": {
+      "ok": true,
+      "duracion_s": 15.053730964660645
+    },
+    "20dias": {
+      "ok": true,
+      "duracion_s": 6.851431131362915
+    },
+    "validar_modelo": {
+      "ok": true,
+      "duracion_s": 14.533430099487305
+    }
+  }
+}

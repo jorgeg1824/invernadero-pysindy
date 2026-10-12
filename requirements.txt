@@ -1,0 +1,16 @@
+# Dependencias del proyecto (Python 3.12 o superior).
+#
+# Las versiones están FIJADAS a propósito: el programa original del profesor
+# da una ecuación distinta con pandas 2.x y con pandas 3.x (ver
+# docs/informe_final.md, error C1). Con estas versiones se generaron
+# referencia_original/ y docs/comparacion_original_vs_modular.md.
+#
+# requirements-lock.txt fija además todas las dependencias indirectas.
+
+numpy==2.5.3
+pandas==3.0.5
+scipy==1.18.1
+matplotlib==3.11.2
+scikit-learn==1.9.1
+pysindy==2.1.0
+pytest==9.1.1

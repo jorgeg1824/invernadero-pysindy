@@ -1,0 +1,73 @@
+Resultado de las pruebas automáticas
+Comando: python -m pytest -v
+Fecha: 2026-10-12 16:40  |  Python 3.13.14, pandas 3.0.5, numpy 2.5.3, scipy 1.18.1, pysindy 2.1.0, Linux
+
+============================= test session starts ==============================
+platform linux -- Python 3.13.14, pytest-9.1.1, pluggy-1.6.0 -- ../venv3/bin/python
+rootdir: /home/claude/invernadero-pysindy
+configfile: pytest.ini
+testpaths: tests
+collecting ... collected 60 items
+
+tests/test_alineacion.py::test_dt_mediano PASSED                         [  1%]
+tests/test_alineacion.py::test_asigna_la_medicion_mas_cercana PASSED     [  3%]
+tests/test_alineacion.py::test_nearest_puede_reutilizar_una_medicion PASSED [  5%]
+tests/test_alineacion.py::test_fuera_de_tolerancia_queda_nan PASSED      [  6%]
+tests/test_alineacion.py::test_elimina_marcas_duplicadas PASSED          [  8%]
+tests/test_alineacion.py::test_diferencias_temporales PASSED             [ 10%]
+tests/test_carga.py::test_lee_csv_tabulado_sin_transformar PASSED        [ 11%]
+tests/test_carga.py::test_lee_csv_separado_por_comas PASSED              [ 13%]
+tests/test_carga.py::test_validar_estructura_ok PASSED                   [ 15%]
+tests/test_carga.py::test_validar_estructura_sin_fecha PASSED            [ 16%]
+tests/test_carga.py::test_validar_estructura_falta_variable PASSED       [ 18%]
+tests/test_carga.py::test_cargar_csv_convierte_a_utc PASSED              [ 20%]
+tests/test_carga.py::test_detectar_columnas_formato_ancho_con_alias PASSED [ 21%]
+tests/test_equivalencia_original.py::test_barrido_igual_al_programa_del_profesor PASSED [ 23%]
+tests/test_equivalencia_original.py::test_barrido_corregido_igual_al_profesor_con_pandas2 PASSED [ 25%]
+tests/test_equivalencia_original.py::test_prediccion_igual_a_invernadero_20dias PASSED [ 26%]
+tests/test_equivalencia_original.py::test_ventanas_igual_a_validar_modelo PASSED [ 28%]
+tests/test_limpieza_segmentacion.py::test_bloques_continuos_cortan_en_hueco PASSED [ 30%]
+tests/test_limpieza_segmentacion.py::test_rellenar_en_malla_interpola_linealmente PASSED [ 31%]
+tests/test_limpieza_segmentacion.py::test_bloques_rellenados_rellena_corto_y_corta_largo PASSED [ 33%]
+tests/test_limpieza_segmentacion.py::test_listar_huecos PASSED           [ 35%]
+tests/test_limpieza_segmentacion.py::test_limpiar_tramo_quita_nan_y_duplicados PASSED [ 36%]
+tests/test_limpieza_segmentacion.py::test_seleccion_por_puntaje_y_por_longitud PASSED [ 38%]
+tests/test_limpieza_segmentacion.py::test_particiones PASSED             [ 40%]
+tests/test_limpieza_segmentacion.py::test_cortes_de_ventanas_como_validar_modelo PASSED [ 41%]
+tests/test_metricas.py::test_metricas_valores_conocidos PASSED           [ 43%]
+tests/test_metricas.py::test_prediccion_perfecta_y_constante PASSED      [ 45%]
+tests/test_metricas.py::test_mae_por_dia PASSED                          [ 46%]
+tests/test_metricas.py::test_metricas_archivo_excluye_entrenamiento PASSED [ 48%]
+tests/test_modelos.py::test_identificacion_base_recupera_la_ecuacion PASSED [ 50%]
+tests/test_modelos.py::test_ajuste_por_simulacion_recupera_la_ecuacion PASSED [ 51%]
+tests/test_modelos.py::test_ajuste_necesita_resultado_base PASSED        [ 53%]
+tests/test_modelos.py::test_barrido_elige_menor_rmse_y_registra_datos PASSED [ 55%]
+tests/test_modelos.py::test_conversion_de_coeficientes_equivalente PASSED [ 56%]
+tests/test_modelos.py::test_conversion_de_unidades_y_formato PASSED      [ 58%]
+tests/test_modelos.py::test_modelo_identificado_predice_bien PASSED      [ 60%]
+tests/test_normalizacion_derivadas.py::test_escalador_media_cero_desviacion_uno PASSED [ 61%]
+tests/test_normalizacion_derivadas.py::test_derivada_malla_de_una_rampa PASSED [ 63%]
+tests/test_normalizacion_derivadas.py::test_derivada_profesor_en_segundos PASSED [ 65%]
+tests/test_normalizacion_derivadas.py::test_tiempo_en_segundos_no_depende_de_la_resolucion[ns] PASSED [ 66%]
+tests/test_normalizacion_derivadas.py::test_tiempo_en_segundos_no_depende_de_la_resolucion[us] PASSED [ 68%]
+tests/test_normalizacion_derivadas.py::test_tiempo_en_segundos_no_depende_de_la_resolucion[ms] PASSED [ 70%]
+tests/test_normalizacion_derivadas.py::test_tiempo_en_segundos_no_depende_de_la_resolucion[s] PASSED [ 71%]
+tests/test_normalizacion_derivadas.py::test_expresion_original_depende_de_la_resolucion PASSED [ 73%]
+tests/test_normalizacion_derivadas.py::test_unidad_efectiva_conocida PASSED [ 75%]
+tests/test_pipeline_cli.py::test_help_lista_las_funcionalidades PASSED   [ 76%]
+tests/test_pipeline_cli.py::test_config_por_defecto_en_json PASSED       [ 78%]
+tests/test_pipeline_cli.py::test_config_desde_json PASSED                [ 80%]
+tests/test_pipeline_cli.py::test_prediccion_registra_las_8_etapas_en_disco PASSED [ 81%]
+tests/test_pipeline_cli.py::test_barrido_con_seleccion_separada_es_independiente PASSED [ 83%]
+tests/test_simulacion.py::test_lsim_coincide_con_la_solucion_analitica PASSED [ 85%]
+tests/test_simulacion.py::test_rk45_y_lsim_dan_la_misma_trayectoria PASSED [ 86%]
+tests/test_simulacion.py::test_simular_archivo_marca_entrenamiento_y_arranca_de_la_medicion PASSED [ 88%]
+tests/test_simulacion.py::test_perfil_diario PASSED                      [ 90%]
+tests/test_transformaciones.py::test_zona_horaria_explicita_utc PASSED   [ 91%]
+tests/test_transformaciones.py::test_zona_horaria_ausente_se_advierte PASSED [ 93%]
+tests/test_transformaciones.py::test_offset_se_convierte_a_utc PASSED    [ 95%]
+tests/test_transformaciones.py::test_convertir_fechas_registra_invalidas PASSED [ 96%]
+tests/test_transformaciones.py::test_construir_series_tabla_conocida PASSED [ 98%]
+tests/test_transformaciones.py::test_construir_series_ordena_filas_desordenadas PASSED [100%]
+
+============================= 60 passed in 55.96s ==============================

@@ -1,0 +1,17 @@
+Preparación del modelo
+======================
+
+Partición:
+     conjunto                    inicio                       fin     dias  muestras
+entrenamiento 2026-06-15 15:36:17+00:00 2026-06-20 15:32:41+00:00 4.997500      1494
+   validacion 2026-06-20 15:37:40+00:00 2026-06-25 22:03:00+00:00 5.267593      1533
+
+Derivada: {'derivada': 'savgol+gradiente (tiempo real)', 'ventana_savgol': 21, 'polyorder': 2, 'unidad_tiempo': 's', 'unidad_efectiva': 's'}
+dT/dt [°C/s]: min -0.08886, max 0.624
+
+Normalización (con entrenamiento):
+                   media   desviacion
+variable                             
+Temperatura    22.041091     8.107541
+Luminosidad  2026.507731  3589.013742
+Humedad        76.750375    28.474323
