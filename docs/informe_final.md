@@ -35,7 +35,7 @@ justificados:
    llegó a 628 líneas: no hacía cálculos, pero sí armaba el texto, las tablas y las
    gráficas de las 8 etapas de 4 funcionalidades. La guía pide que `pipeline.py`
    no sea "otro archivo extenso", así que cada funcionalidad quedó en
-   `flujos/<nombre>.py` (86 a 190 líneas) y `pipeline.py` (59 líneas) solo las
+   `flujos/<nombre>.py` (85 a 189 líneas) y `pipeline.py` (59 líneas) solo las
    registra y las expone. `flujos/comun.py` tiene las etapas 1 a 3, que son
    iguales en los tres programas.
 2. **`modelos/estrategias/identificacion_base.py`** (adicional a `base.py`,
