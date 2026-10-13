@@ -29,7 +29,7 @@ modelo.
 
 ```bash
 # 1. Descargar el proyecto
-git clone https://github.com/<usuario>/invernadero-pysindy.git
+git clone https://github.com/jorgeg1824/invernadero-pysindy.git
 cd invernadero-pysindy
 #    (o descargar el ZIP desde GitHub, descomprimirlo y abrir una terminal en esa carpeta)
 
